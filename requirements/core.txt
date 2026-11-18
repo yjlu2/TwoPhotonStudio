@@ -1,0 +1,23 @@
+# Python 3.10; Torch CPU is installed separately before this file.
+suite2p==0.10.3
+-c core-constraints.txt
+torch==2.4.1
+numpy==1.24.4
+scipy==1.10.1
+numba==0.58.1
+llvmlite==0.41.1
+tifffile==2021.11.2
+imagecodecs==2023.3.16
+PyQt5==5.15.9
+pyqtgraph==0.12.4
+matplotlib==3.7.5
+scikit-image==0.19.3
+scikit-learn==1.3.2
+h5py==3.11.0
+rastermap==0.1.3
+natsort==8.4.0
+scanimage-tiff-reader==1.4.1.4
+sbxreader==0.2.3
+paramiko==3.5.1
+importlib-metadata==8.5.0
+

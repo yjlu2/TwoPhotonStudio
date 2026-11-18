@@ -1,0 +1,16 @@
+{
+  "ndim": 3,
+  "checkpoint": "models/profile_lbm_2mm.pt",
+  "channels": 32,
+  "encoder_norm": "instance",
+  "decoder_norm": null,
+  "vf_clip": 8.0,
+  "discard_value": 3.5,
+  "threshold": 6.0,
+  "min_size": 3,
+  "kernel_size": [3, 3, 3],
+  "padding": [1, 1, 1],
+  "use_separable_conv": false,
+  "assignment_radius": 0.55,
+  "normalization": "quantile_01_99"
+}

@@ -1,0 +1,13 @@
+{
+  "ndim": 2,
+  "checkpoint": "models/profile_mouse_target_scale_n115.pt",
+  "channels": 32,
+  "encoder_norm": "instance",
+  "decoder_norm": null,
+  "vf_clip": 12.446295006339533,
+  "discard_value": 2.1833701987447816,
+  "threshold": 6.796724809977919,
+  "min_size": 3,
+  "assignment_radius": 1.0,
+  "normalization": "quantile_01_99"
+}

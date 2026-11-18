@@ -1,0 +1,9 @@
+# Keep ordinary source text consistent across platforms.
+* text=auto eol=lf
+*.cmd text eol=crlf
+# bundled-assets.json checks exact bytes; Git must not rewrite this snapshot.
+app/vendor/** -text
+*.pt -text
+*.pth -text
+*.png -text
+*.ico -text

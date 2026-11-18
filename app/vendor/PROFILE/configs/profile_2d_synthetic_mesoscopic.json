@@ -1,0 +1,11 @@
+{
+  "ndim": 2,
+  "checkpoint": "models/profile_2d_synthetic_mesoscopic.pt",
+  "channels": 16,
+  "encoder_norm": "instance",
+  "decoder_norm": null,
+  "vf_clip": 14.0,
+  "discard_value": 3.0,
+  "threshold": 5.0,
+  "min_size": 21
+}

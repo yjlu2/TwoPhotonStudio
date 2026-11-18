@@ -1,0 +1,14 @@
+{
+  "ndim": 3,
+  "checkpoint": "models/profile_3d_synthetic_microscopic.pt",
+  "channels": 16,
+  "encoder_norm": "instance",
+  "decoder_norm": null,
+  "vf_clip": 8.0,
+  "discard_value": 3.0,
+  "threshold": 5.0,
+  "min_size": 21,
+  "kernel_size": [3, 3, 3],
+  "padding": [1, 1, 1],
+  "use_separable_conv": false
+}

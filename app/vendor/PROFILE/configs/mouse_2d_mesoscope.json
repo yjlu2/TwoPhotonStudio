@@ -1,0 +1,15 @@
+{
+  "ndim": 2,
+  "checkpoint": "models/profile_mouse_2d_mesoscope.pt",
+  "channels": 32,
+  "encoder_norm": "instance",
+  "decoder_norm": null,
+  "vf_clip": 14.0,
+  "discard_value": 3.0,
+  "threshold": 5.0,
+  "min_size": 9,
+  "threshold_quantize_to_uint8": true,
+  "label_connectivity": 2,
+  "assignment_radius": null,
+  "normalization": "identity"
+}

@@ -1,0 +1,28 @@
+# Python 3.11; separate process avoids legacy Suite2p/NumPy/Qt conflicts.
+# Torch/torchvision installed first from the selected official CPU/cu128 index.
+suite2p==1.0.0.1
+-c models-constraints.txt
+torch==2.7.0
+torchvision==0.22.0
+cellpose==4.0.8
+numpy==2.2.6
+scipy==1.15.3
+numba==0.61.2
+llvmlite==0.44.0
+tifffile==2025.5.10
+imagecodecs==2025.3.30
+matplotlib==3.10.3
+scikit-image==0.25.2
+scikit-learn==1.6.1
+h5py==3.13.0
+fastremap==1.17.1
+natsort==8.4.0
+tqdm==4.67.1
+zarr==2.18.7
+numcodecs==0.15.1
+opencv-python-headless==4.11.0.86
+PyQt6==6.9.1
+qtpy==2.4.3
+pyqtgraph==0.13.7
+scanimage-tiff-reader==1.4.1.4
+

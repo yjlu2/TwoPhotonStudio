@@ -1,0 +1,147 @@
+[
+  {
+    "path": "app/vendor/PROFILE/configs/mouse_2d_mesoscope.json",
+    "bytes": 350,
+    "sha256": "32def4344a95c57b75c5693f0d88630893401eac83feed3d060fe2caf9b14df3"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_2d_synthetic_mesoscopic.json",
+    "bytes": 230,
+    "sha256": "963f286012c1908c52fac3b18048858b89cbb547532cfd8ee45af2b365d777f2"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_2d_synthetic_microscopic.json",
+    "bytes": 231,
+    "sha256": "ef818640fd71e905da30a7afcc3ab41e725f60e089aa872471de978764593220"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_3d_synthetic_mesoscopic.json",
+    "bytes": 312,
+    "sha256": "eaaf80e18d26c3c4b7b7832a23ada770a282ba21191c34910b5ee87964bfcec4"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_3d_synthetic_microscopic.json",
+    "bytes": 313,
+    "sha256": "3e6ba52c3834e8a0af41082c742fdcf6d5bf1a58c6b1ab29d35cbd1a27cba5f9"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_lbm_0p6.json",
+    "bytes": 364,
+    "sha256": "e6653d4f11cc9aeb24b384a5f2744ecdbc9d78c1ae9b7a92f2cc7c04f9c3124e"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_lbm_2mm.json",
+    "bytes": 361,
+    "sha256": "fd496700d49af9a9c48ab9ea18004b23415256892b68af598263dd727c028b9f"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n10.json",
+    "bytes": 336,
+    "sha256": "6b675b5fc73d445697213ea5845ad354f292f1e0b363af21c477e9b893617d6f"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n100.json",
+    "bytes": 337,
+    "sha256": "a52de24d1df3b56536d356de8f0466d73887b8674b2f4f7c62744eeb1aead62a"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n115.json",
+    "bytes": 337,
+    "sha256": "6b6ef7cc69723001ce8588f43f95b9de5fe52ece2693fa1f77e08636be06bcb1"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n20.json",
+    "bytes": 336,
+    "sha256": "cc417925d02838fa389ca8ab44d64a7cb7b879c7a5ea1905c44c3bcb14d53749"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n40.json",
+    "bytes": 336,
+    "sha256": "0de92f67893e29355fd7ea81741e4e10a46c4442fc31018061581ac2a92e4bb0"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n60.json",
+    "bytes": 336,
+    "sha256": "c235490b9c8bd69395c7dc54514b33fe6124f4efc583e80a6f61aa04d0a1ba7c"
+  },
+  {
+    "path": "app/vendor/PROFILE/configs/profile_mouse_target_scale_n80.json",
+    "bytes": 336,
+    "sha256": "80d31c5f4330c18d9f0d70fb6da5e3675f87aa83ec34f1f4a2b414d431071616"
+  },
+  {
+    "path": "app/vendor/PROFILE/LICENSE",
+    "bytes": 1085,
+    "sha256": "35a7725c00302ebe66714af2f662f61d4b57eaf808a3c677b29dd3ffeec6cafb"
+  },
+  {
+    "path": "app/vendor/PROFILE/models/profile_mouse_target_scale_m110.pt",
+    "bytes": 32436668,
+    "sha256": "d5de9f6ad511bec2b0f9ff33a69cf8d937345b0c9470a6beee11f78f60a96617"
+  },
+  {
+    "path": "app/vendor/PROFILE/models/profile_mouse_target_scale_m124.pt",
+    "bytes": 32436668,
+    "sha256": "69899e4175f97e8bcbcccc4f4b611fead3f994c1683ff41c78934bb4cc20012a"
+  },
+  {
+    "path": "app/vendor/PROFILE/profile_inference/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "app/vendor/PROFILE/profile_inference/inference.py",
+    "bytes": 15031,
+    "sha256": "4ee6bed0ce7d235daeb5f53257cefb1dc7fe9263fef9bdad23795bf56cfbe416"
+  },
+  {
+    "path": "app/vendor/PROFILE/profile_inference/models.py",
+    "bytes": 10348,
+    "sha256": "511dc7f55512ba81fcaa0f2d808455bac5b5efe697ffa44e3b40abc1b3fbb31f"
+  },
+  {
+    "path": "app/vendor/PROFILE/README.md",
+    "bytes": 8926,
+    "sha256": "69bf472b317f1f257fad4cb2d85f3ecadd3f7ec8bef185b3fff20a3fe743a6ec"
+  },
+  {
+    "path": "app/vendor/SUPPORT/LICENSE",
+    "bytes": 35823,
+    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  },
+  {
+    "path": "app/vendor/SUPPORT/model/convhole.py",
+    "bytes": 3572,
+    "sha256": "cdb3c608c0fc62b5dc5ec29fa4591c43d40029d6625bfc3bbab6186a2d495807"
+  },
+  {
+    "path": "app/vendor/SUPPORT/model/SUPPORT.py",
+    "bytes": 15864,
+    "sha256": "6006060fe1bfe47c9889f1d97bc84f73d8ebf07388d5a4a59e60e009105fa79a"
+  },
+  {
+    "path": "app/vendor/SUPPORT/README.md",
+    "bytes": 9934,
+    "sha256": "4f6bc3e6f1815a1a8e688d6a2f6f4719bfb936aebe40b6f5cc1a0e962ca414b1"
+  },
+  {
+    "path": "app/vendor/SUPPORT/src/GUI/trained_models/bs1.pth",
+    "bytes": 5628185,
+    "sha256": "1e18b2ab03747eb891aac6820c7d47ba79657031a599ece95e22ddfd29657fba"
+  },
+  {
+    "path": "app/vendor/SUPPORT/src/utils/dataset.py",
+    "bytes": 13280,
+    "sha256": "754016bf679426faa17ab90840a723ea8e37f7711f7df04995c32954655d2176"
+  },
+  {
+    "path": "app/vendor/SUPPORT/src/utils/dataset_pyqt.py",
+    "bytes": 4828,
+    "sha256": "a0d2d43559ad0d0a78e92882895652496c8f884e5472311fddb68e2749848359"
+  },
+  {
+    "path": "app/vendor/SUPPORT/src/utils/util.py",
+    "bytes": 10715,
+    "sha256": "e6ce54fd8b621af14814603a953d22beb64bba70799f0d133b0c45dac4dfe7e2"
+  }
+]

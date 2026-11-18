@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools==75.3.2", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twophoton-studio"
+version = "0.0.1"
+description = "Suite2p-based Windows workflow for two-photon calcium imaging"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+license = {text = "GPL-3.0-only"}
+dependencies = [
+  "suite2p==0.10.3", "numpy==1.24.4", "scipy==1.10.1",
+  "numba==0.58.1", "tifffile==2021.11.2", "imagecodecs==2023.3.16",
+  "PyQt5==5.15.9", "pyqtgraph==0.12.4", "matplotlib==3.7.5",
+  "h5py==3.11.0", "rastermap==0.1.3", "scikit-learn==1.3.2",
+  "scikit-image==0.19.3", "torch==2.4.1"
+]
+classifiers = ["Operating System :: Microsoft :: Windows", "Topic :: Scientific/Engineering"]
+
+[project.urls]
+Repository = "https://github.com/yjlu2/TwoPhotonStudio"
+Issues = "https://github.com/yjlu2/TwoPhotonStudio/issues"
+
+[project.scripts]
+twophoton-studio = "twophoton_studio.cli:main"
+
+[tool.setuptools]
+packages = ["twophoton_studio"]
+include-package-data = true
+
+[tool.setuptools.package-dir]
+twophoton_studio = "app"
+
+[tool.setuptools.package-data]
+twophoton_studio = ["*.m", "*.txt", "assets/*", "matlab/*", "profile_configs/*",
+ "vendor/PROFILE/*", "vendor/PROFILE/profile_inference/*.py",
+ "vendor/PROFILE/configs/*.json", "vendor/PROFILE/models/*.pt",
+ "vendor/SUPPORT/*", "vendor/SUPPORT/model/*.py", "vendor/SUPPORT/src/utils/*.py",
+ "vendor/SUPPORT/src/GUI/trained_models/*.pth"]
+
