@@ -20,7 +20,8 @@ class InstallationTests(unittest.TestCase):
     def test_config_has_no_machine_specific_paths(self):
         with tempfile.TemporaryDirectory() as folder, patch.dict(os.environ,{'TWOPHOTON_STATE_DIR':folder}):
             config=rc.runtime_defaults()
-            self.assertEqual(Path(config['cellpose_model']),Path(folder)/'models/cellpose/cpsam')
+            self.assertEqual(Path(config['cellpose_model']).resolve(),
+                             (Path(folder)/'models/cellpose/cpsam').resolve())
             source=(ROOT/'app/runtime_config.py').read_text(encoding='utf-8')
             self.assertNotIn('Users\\Admin',source)
             self.assertNotIn('Anaconda3_py3.9',source)
